@@ -1,0 +1,26 @@
+.header {
+	text-align: center;
+	font-family: Arial, Helvetica, Trebuchet;
+}
+
+.text {
+	font-size: 16px;
+	margin: 15px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+		
+}
+.page{
+	padding: 10px;
+	margin: 10px 0 10px 0;
+}
+
+#KSM{
+	vertical-align: middle;
+	margin-left: 200px;
+}
+
+.About{
+	vertical-align: middle;
+	margin-right: 100px;
+}

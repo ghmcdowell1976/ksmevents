@@ -1,0 +1,12 @@
+.container {
+	display: block;
+	
+}
+
+.grid {
+	width: 250px;
+	height: 250px;
+	margin-right: 24px;
+    margin-bottom: 24px;
+    vertical-align: all;
+}
