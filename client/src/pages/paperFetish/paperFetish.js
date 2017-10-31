@@ -12,21 +12,21 @@ const paperFetish = () =>{
       <div>
         <Row>
           <Header currentColor={"pink"} Image={"event.jpg"}/>
-          
+          <div className="container">
           <Col size="md-12">
             <h1 className="header">Paper Fetish</h1>
             <p className="text">My love affair with paper quietly began a long time ago.  This part of the celebration
              sets the stage for what your guests can expect while spending this time with you. We're 
               very excited to help you coordinate a beautiful event and invitations to tell your story.</p>
           </Col>
-        </Row>
         
-          <div>
+        
+          
             <ImageLoad
               page={"paperFetish"}
             />
           </div>
-        
+        </Row>
       </div>
     );
 	}

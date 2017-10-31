@@ -11,7 +11,7 @@ import "./event.css";
          <Header currentColor={"#EBDEF0"} />
         <Row>
         
-           
+           <div className="container" align-content="center">
        
             <Col size="md-12">
             <h1 class="header">Events</h1>
@@ -37,6 +37,7 @@ import "./event.css";
             <p class="text">A Rustic Engagement Party</p>
             
             </Col>
+              </div>
         </Row>
       </div>
     );

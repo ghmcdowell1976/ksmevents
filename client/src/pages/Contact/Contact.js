@@ -42,8 +42,8 @@ class Contact extends Component {
           <Row>
             <Header currentColor={"pink"} />
        <div className="container">
-      <h1 class="header">Contact</h1>
-      <p class="text" id="line">Interested in our services?  Leave me a message here and I'll get back to you as soon as possible! I can't wait to talk to you!</p>
+      <h1 className="header">Contact</h1>
+      <p className="text" id="line">Interested in our services?  Leave me a message here and I'll get back to you as soon as possible! I can't wait to talk to you!</p>
         	
       	
       		<Col size="md-6" class="col-pink">
@@ -55,29 +55,29 @@ class Contact extends Component {
 
       		<Col size="md-6">
           <Row>
-			     <label class="caption"><b>First Name</b>
-    			   <input id="fName-field" type="text" placeholder="Enter First Name" name="firstName" required maxlength="30" />
+			     <label className="caption"><b>First Name</b>
+    			   <input id="fName-field" type="text" placeholder="Enter First Name" name="firstName" required maxLength="30" />
     		  </label>
 
-    		<label class="caption"><b>Last Name</b>
-    			<input id="lName-field" type="text" placeholder="Enter Last Name" name="lastName" required maxlength="30" width="203.17" height="42" />
+    		<label className="caption"><b>Last Name</b>
+    			<input id="lName-field" type="text" placeholder="Enter Last Name" name="lastName" required maxLength="30" width="203.17" height="42" />
     		</label>
         </Row>
 
         <Row>
-    		<label class="caption"><b>Email          </b>
-    			<input id="email-field" type="text" placeholder="Enter Email" name="email" required maxlength="60" />
+    		<label className="caption"><b>Email          </b>
+    			<input id="email-field" type="text" placeholder="Enter Email" name="email" required maxLength="60" />
     		</label>
         </Row>
 
         <Row>
-    		<label class="caption"><b>Subject</b>
-    			<input id="subject-field" type="text" placeholder="Subject" name="subject" maxlength="30" />
+    		<label className="caption"><b>Subject</b>
+    			<input id="subject-field" type="text" placeholder="Subject" name="subject" maxLength="30" />
     		</label>
         </Row>
 
         <Row>
-    		<label class="caption"><b>Message</b>
+    		<label className="caption"><b>Message</b>
     			<TextArea id="msg-field" type="text" placeholder="Message" name="message" required />
     		</label>
         </Row>
