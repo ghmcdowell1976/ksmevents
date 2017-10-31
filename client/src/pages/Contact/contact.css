@@ -1,0 +1,75 @@
+.header {
+	text-align: center;
+	font-family: ;
+}
+
+.text {
+	font-size: 16px;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 5px;
+		
+}
+
+.caption {
+	margin: 5px;
+	padding: 5px;
+}
+
+#email-field {
+	width: 235%;
+	padding: 12px;
+	margin: 6px 0 4px;
+	border: 1px solid;
+	background: #fafafa;
+	line-height: normal;
+	box-sizing: border-box;
+}
+#fName-field {
+	width: 100%;
+	padding: 12px;
+	margin: 6px 0 4px;
+	border: 1px solid;
+	background: #fafafa;
+	line-height: normal;
+	box-sizing: border-box;
+}
+
+#lName-field{
+	width: 100%;
+	padding: 12px;
+	margin: 6px 0 4px;
+	border: 1px solid;
+	background: #fafafa;
+	line-height: normal;
+	box-sizing: border-box;
+}
+
+#subject-field {
+	width: 230%;
+	padding: 12px;
+	margin: 6px 0 4px;
+	border: 1px solid;
+	background: #fafafa;
+	line-height: normal;
+	box-sizing: border-box;
+}
+
+#msg-field {
+	width: 350%;
+    padding: 12px;
+    margin: 6px 0 4px;
+    border: 1px solid #ccc;
+    background: #fafafa;
+    font-size: 12px;
+    line-height: normal;
+    box-sizing: border-box;
+    border-radius: 2px;
+
+}
+
+#line {
+	text-align: center;
+	padding-bottom: 25px;
+
+}
