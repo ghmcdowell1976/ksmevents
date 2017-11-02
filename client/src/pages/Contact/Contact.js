@@ -10,7 +10,6 @@ import API from "../../utils/API";
 
 class Contact extends Component {
   state = {
-    contacts: [],
     firstName: "",
     lastName: "",
     email: "",
@@ -19,6 +18,7 @@ class Contact extends Component {
   };
 
     handleFormSubmit = event => {
+      console.log("called the api");
     event.preventDefault();
     if (this.state.firstName && this.state.lastName && this.state.email) {
       API.saveContacts({
@@ -34,6 +34,11 @@ class Contact extends Component {
     }
   };
 
+  handleInput = event =>{
+    this.setState({[event.target.name]: event.target.value});
+    console.log(this.state);
+  }
+
 
  
     render() {
@@ -46,7 +51,7 @@ class Contact extends Component {
       <p className="text" id="line">Interested in our services?  Leave me a message here and I'll get back to you as soon as possible! I can't wait to talk to you!</p>
         	
       	
-      		<Col size="md-6" class="col-pink">
+      		<Col size="md-6" className="col-pink">
 
               <img id="KSM" src="./images/contact.jpg" height="450px" width="50%"  position="absolute" />
 
@@ -56,36 +61,34 @@ class Contact extends Component {
       		<Col size="md-6">
           <Row>
 			     <label className="caption"><b>First Name</b>
-    			   <input id="fName-field" type="text" placeholder="Enter First Name" name="firstName" required maxLength="30" />
+    			   <input id="fName-field" type="text" placeholder="Enter First Name" name="firstName" required maxLength="30" value={this.state.firstName} onChange={this.handleInput}/>
     		  </label>
 
     		<label className="caption"><b>Last Name</b>
-    			<input id="lName-field" type="text" placeholder="Enter Last Name" name="lastName" required maxLength="30" width="203.17" height="42" />
+    			<input id="lName-field" type="text" placeholder="Enter Last Name" name="lastName" required maxLength="30" width="203.17" height="42" value={this.state.lastName} onChange={this.handleInput}/>
     		</label>
         </Row>
 
         <Row>
     		<label className="caption"><b>Email          </b>
-    			<input id="email-field" type="text" placeholder="Enter Email" name="email" required maxLength="60" />
+    			<input id="email-field" type="text" placeholder="Enter Email" name="email" required maxLength="60" value={this.state.email} onChange={this.handleInput}/>
     		</label>
         </Row>
 
         <Row>
     		<label className="caption"><b>Subject</b>
-    			<input id="subject-field" type="text" placeholder="Subject" name="subject" maxLength="30" />
+    			<input id="subject-field" type="text" placeholder="Subject" name="subject" maxLength="30" value={this.state.subject} onChange={this.handleInput}/>
     		</label>
         </Row>
 
         <Row>
     		<label className="caption"><b>Message</b>
-    			<TextArea id="msg-field" type="text" placeholder="Message" name="message" required />
+    			<TextArea id="msg-field" type="text" placeholder="Message" name="message" required value={this.state.message} onChange={this.handleInput}/>
     		</label>
         </Row>
 
-        <Row>
-        <FormBtn>
+        <Row>        
         <button onClick={this.handleFormSubmit}>Submit</button>
-        </FormBtn>
         </Row>
         </Col>
         </div>

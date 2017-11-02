@@ -8,7 +8,7 @@ import paperFetish from "./pages/paperFetish";
 import Contact from "./pages/Contact";
 import Event from "./pages/Events";
 import loveNote from "./pages/loveNotes";
-// import admin from ".pages/admin";
+import Admin from "./pages/Admin";
 import { Container } from "./components/Grid";
 
 const App = () => 
@@ -21,6 +21,7 @@ const App = () =>
           <Route exact path="/Contact" component={Contact} />
           <Route exact path="/Event" component={Event} />
           <Route exact path="/loveNote" component={loveNote} />
+          <Route exact path="/Admin" component={Admin} />
        
         </Container>
       </Router>;

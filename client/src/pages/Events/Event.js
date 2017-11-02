@@ -7,38 +7,55 @@ import "./event.css";
 
 	const Event = () =>{
 	    return (
-        <div>
-         <Header currentColor={"#EBDEF0"} />
-        <Row>
+        <div>  
         
-           <div className="container" align-content="center">
-       
-            <Col size="md-12">
-            <h1 class="header">Events</h1>
-            <p class="text">Transformation Day: Masks, Leather and Lace - A Sassy Girls Night In</p>
-               <img class="event" src="./images/DSC_0171.jpg" height="864px" width="576.115px" position="relative" />
+            
+          
+              <Row>
+              <Header currentColor={"#EBDEF0"} />
+                <Col size="md-12">
+                   <h1 className="header">Events</h1>
+                </Col>
+              </Row>
+               <div className="container">
+              <Row>
+                  <Col size="md-6">
+                      <h4 className="title">Transformation Day: Masks, Leather and Lace - A Sassy Girls Night In</h4>
+                      <img className="event" src="images/DSC_0171.jpg" height="864px" width="576.115px" />
             
 
         
-            <p class="text">Jones' Sweet Little Gender Neutral Baby Shower</p>
-               <img class="event" src="./images/J+on+door+1.jpg" height="864px" width="576.11px" />
+                      <h4 className="title">Jones' Sweet Little Gender Neutral Baby Shower</h4>
+                     <img className="event" src="images/J+on+door+1.jpg" height="864px" width="576.11px" />
 
 
-            <p class="text">Frank & Daphne's Wedding</p>
+                      <h4 className="title">Frank & Daphne's Wedding</h4>
+                     <img className="event" src="images/Perfect+Ceremony+View.jpg" height="864px" width="576.11px" />
 
-            <p class="text">A Cozy Tea Party</p>
+                      <h4 className="title">A Cozy Tea Party</h4>
+                      <img className="event" src="images/FB_IMG_1454082996862[1].jpg" height="864px" width="576.11px" />
+                  </Col>
+                  <Col size="md-6">
+             
 
-            <p class="text">Cameron's Carnival 1st Birthday</p>
+            <h4 className="title">Cameron's Carnival 1st Birthday</h4>
+              <img className="event" src="images/2015-06-22_12.55.36.jpg" height="864px" width="576.11px" />
+              
+            <h4 className="title">Birds of a Feather Birthday Celebration</h4>
+              <img className="event" src="images/Birdfeathers.jpg" height="864px" width="576.11px" />
 
-            <p class="text">Birds of a Feather Birthday Celebration</p>
+            <h4 className="title">Masquerade 30th Birthday</h4>
+              <img className="event" src="images/Welcome+with+card.jpg" height="864px" width="576.11px" />
+              
 
-            <p class="text">Masquerade 30th Birthday</p>
-
-            <p class="text">A Rustic Engagement Party</p>
+            <h4 className="title">A Rustic Engagement Party</h4>
+              <img className="event" src="images/RusticEngage.jpg" height="864px" width="576.11px" />
             
             </Col>
+            </Row>
+
               </div>
-        </Row>
+        
       </div>
     );
 	}
