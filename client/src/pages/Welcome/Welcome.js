@@ -10,9 +10,10 @@ import Header from "../../components/Header";
     	   <Header currentColor={"pink"} Image={"event.jpg"} />
     	       
       
-              
-       
+                   
              <div className="container">
+
+
           <Col size="md-6" className="welcome" >
             <img id="decor" src="./event.jpg" height="400px" width="50%" />
             
@@ -21,7 +22,7 @@ import Header from "../../components/Header";
           
            <Col size="md-6" className="welcome">
             
-              <h1 class="header">Welcome</h1>
+              <h1 class="header">Welcome to Kimberly S. McDowell Event Planning & Design</h1>
             
             <p class="text">At Kimberly S. McDowell Event Planning & Design, we are focused on providing 
             	quality services with the highest levels of customer satisfaction. We know that

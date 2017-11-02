@@ -18,7 +18,7 @@ import Header from "../../components/Header";
             <Col size="md-6">
 
             <div className="About">
-            <h1 className="header">About our Team</h1>
+            <h1 className="header">Meet the Team</h1>
             <p className="text">A graduate of Georgia Southern University with a Bachelor of Busines
             Administration Degree in Finance, Kimberly S. McDowell knows all about making
             the most of your money.</p>
@@ -36,6 +36,19 @@ import Header from "../../components/Header";
             </Col>
             </div>
         </Row>
+
+        <Row>
+         <div className="container">
+          <Col size="md-6">
+            <img id="DLS" src="./images/DLS.jpg" />
+            <h4 id="title">Donnica Scott, Design Assistant</h4>
+          </Col>
+          <Col size="md-6">
+          <img id="NAG" src="./images/NAG.jpg" height="350px" width="200px" />
+          <h4 id="title">Nygeria Grimes, Design Assistant</h4>
+          </Col>
+          </div>
+          </Row>
       </div>
     );
 	}
