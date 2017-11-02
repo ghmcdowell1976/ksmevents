@@ -9,6 +9,7 @@ module.exports = {
       .catch(err => res.status(422).json(err));
    },
   create: function(req, res) {
+    console.log("sending to db");
     db.Contact
       .create(req.body)
       .then(dbModel => res.json(dbModel))

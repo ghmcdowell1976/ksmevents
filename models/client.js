@@ -6,8 +6,7 @@ const contactSchema = new Schema({
   lastName: { type: String, required: true },
   email: {type: String, required: true},
   subject: {type: String},
-  message: {type: String},
-  date: { type: Date, default: Date.now }
+  message: {type: String}
 });
 
 const Contact = mongoose.model("Contact", contactSchema);

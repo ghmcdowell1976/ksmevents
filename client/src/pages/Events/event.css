@@ -1,13 +1,22 @@
 .header, .subHeader {
 	text-align: center;
 	font-family: Arial, Helvetica, Trebuchet;
+	padding-bottom: 15px;
 }
 
 
 .text {
-	font-size: 16x;
-	margin: 15px;
-	padding-top: 10px;
+	text-align: center;
+	font-size: 18;
 	padding-bottom: 5px;
 		
+}
+
+.event {
+	padding:5px;
+}
+
+.title {
+	color:gray;
+	text-align: center;
 }

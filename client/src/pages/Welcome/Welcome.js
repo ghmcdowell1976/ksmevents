@@ -6,14 +6,15 @@ import Header from "../../components/Header";
 
 	const Welcome = () => {
 	    return (<div>
+        <Row>
     	   <Header currentColor={"pink"} Image={"event.jpg"} />
-    	       <Row>
+    	       
       
               
        
              <div className="container">
           <Col size="md-6" className="welcome" >
-            <img src="./event.jpg" height="450px" width="50%" />
+            <img id="decor" src="./event.jpg" height="400px" width="50%" />
             
            
           </Col>
